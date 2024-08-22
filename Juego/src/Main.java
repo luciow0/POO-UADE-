@@ -3,10 +3,8 @@ public class Main
     public static void main(String[] args)
     {
         Juego instancia = new Juego(5);
+        Juego.MuestraVidasRestantes(instancia.vidas);
     }
-    public static void MuestraVidasRestantes(String vidas)
-    {
-        System.out.println(vidas);
-    }
+
 
 }

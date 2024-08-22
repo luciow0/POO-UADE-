@@ -5,5 +5,10 @@ public class Juego
     {
         this.vidas = vidas;
     }
+    public static void MuestraVidasRestantes(int vidas)
+    {
+        System.out.println(vidas);
+    }
+
 
 }
