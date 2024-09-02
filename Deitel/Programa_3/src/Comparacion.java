@@ -2,6 +2,7 @@
 
 import java.util.Scanner;
 
+
 public class Comparacion
 {
  public static void main(String [] args) /*void pq no devulve nada main es la clase que tiene que existir si o si para que ejecute el goyete*/
