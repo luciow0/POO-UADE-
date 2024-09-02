@@ -9,6 +9,12 @@ public class Cuenta
     // cada objeto (instancia) tiene su propia copia de las variables de instancia de la clase
     // puesto que es una variable de instancia, muchos objetos cuenta pueden tener su propio nombre que cada uno de los metodos de la clase
 
+    public Cuenta(String nombre)
+    {
+        this.nombre = nombre;
+    }
+
+
     //metodo para establecer el nombre en el objeto
     public void establecerNombre(String nombre)
     {
