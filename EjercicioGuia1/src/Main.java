@@ -9,24 +9,24 @@ public class Main {
 
         System.out.println("Ingrese el lugar de la reunion ");
         String lugar = entrada.nextLine();
-        agenda.asignarLugar(lugar);
+        agenda.setLugar(lugar);
 
         System.out.println("Ingrese los asistentes de la reunion ");
         String asistentes = entrada.nextLine();
-        agenda.asignarAsistentes(asistentes);
+        agenda.setAsistentes(asistentes);
 
         System.out.println("Ingrese el tema de la reunion");
         String tema = entrada.nextLine();
-        agenda.asignarTema(tema);
+        agenda.setTema(tema);
 
         System.out.println("Ingrese la duracion de la reunion");
         int duracion = entrada.nextInt();
-        agenda.asignarDuracion(duracion);
+        agenda.setDuracion(duracion);
 
-        agenda.mostrarLugar();
-        agenda.mostrarAsistentes();
-        agenda.mostrarTema();
-        agenda.mostrarDuracion();
+        agenda.getLugar();
+        agenda.getAsistentes();
+        agenda.getTema();
+        agenda.getDuracion();
 
 
     }
