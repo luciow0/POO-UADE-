@@ -54,4 +54,14 @@ public class cuentaBancaria {
     public void setSaldoDeCuenta(int saldoDeCuenta) {
         this.saldoDeCuenta = saldoDeCuenta;
     }
+
+    public int actualizarSaldo(int saldoActualizado) {
+        this.saldoDeCuenta = saldoActualizado;
+        return this.saldoDeCuenta;
+    }
+
+    public int retirarSaldo(int dineroRetirado){
+        this.saldoDeCuenta -= dineroRetirado;
+        return this.saldoDeCuenta;
+    }
 }
