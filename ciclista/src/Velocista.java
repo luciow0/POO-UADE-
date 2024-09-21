@@ -1,7 +1,5 @@
 public class Velocista extends Ciclista {
-
     private double potenciaPromedio;
-
     private double velocidadPromedio;
 
     public Velocista(int identificador, String nombreCiclista, int tiempoCarrera, double potenciaPromedio, double velocidadPromedio) {
@@ -9,6 +7,8 @@ public class Velocista extends Ciclista {
         this.potenciaPromedio = potenciaPromedio;
         this.velocidadPromedio = velocidadPromedio;
     }
+
+    public Velocista(){}
 
     public double getPotenciaPromedio() {
         return potenciaPromedio;
@@ -25,4 +25,16 @@ public class Velocista extends Ciclista {
     public void setVelocidadPromedio(double velocidadPromedio) {
         this.velocidadPromedio = velocidadPromedio;
     }
+
+    @Override
+    protected String imprimirTipo() {
+        String tipo = "Velocista";
+        return tipo;
+    }
+
+    @Override
+    public void imprimirAtributos() {
+        super.imprimirAtributos();
+    }
+
 }

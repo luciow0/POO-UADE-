@@ -1,39 +1,50 @@
 public abstract class Ciclista {
     private int identificador;
     private String nombreCiclista;
-    private int tiempoCarrera;
+    private int tiempoCarrera = 0;
 
-    protected String imprimirTipo() {
-        return "Es un " + getClass();
-    }
-
+    // constructor
     public Ciclista(int identificador, String nombreCiclista, int tiempoCarrera){
         this.identificador  = identificador;
         this.nombreCiclista = nombreCiclista;
         this.tiempoCarrera = tiempoCarrera;
     }
 
-    public int getIdentificador() {
+    // constructor vacio
+    public Ciclista() {}
+
+    // geters y seters
+    protected int getIdentificador() {
         return identificador;
     }
 
-    public void setIdentificador(int identificador) {
+    protected void setIdentificador(int identificador) {
         this.identificador = identificador;
     }
 
-    public String getNombreCiclista() {
+    protected String getNombreCiclista() {
         return nombreCiclista;
     }
 
-    public void setNombreCiclista(String nombreCiclista) {
+    protected void setNombreCiclista(String nombreCiclista) {
         this.nombreCiclista = nombreCiclista;
     }
 
-    public int getTiempoCarrera() {
+    protected int getTiempoCarrera() {
         return tiempoCarrera;
     }
 
-    public void setTiempoCarrera(int tiempoCarrera) {
+    protected void setTiempoCarrera(int tiempoCarrera) {
         this.tiempoCarrera = tiempoCarrera;
     }
+
+    // esto metodo luego debera ser sobrescrito (Override) con getClass().getSimpleName() en el cuerpo del metodo para imprimir cada tipo de ciclista
+    protected abstract String imprimirTipo();
+
+    public void imprimirAtributos(){
+        System.out.println(identificador);
+        System.out.println(nombreCiclista);
+        System.out.println(tiempoCarrera);
+    }
 }
+

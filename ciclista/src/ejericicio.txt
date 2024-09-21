@@ -10,6 +10,7 @@ atributos:
 Un ciclista tiene un método abstracto imprimirTipo que devuelve un String.
 
 Los ciclistas se clasifican de acuerdo con su especialidad (sus atributos deben ser privados y sus métodos protegidos).
+
 Estas especialidades no son clases abstractas y heredan los siguientes aspectos de la clase Ciclista:
 
     un Velocista: tiene nuevos atributos como potencia promedio (en vatios) y velocidad promedio en sprint (Km/h) (ambos de tipo double).
@@ -18,9 +19,9 @@ Estas especialidades no son clases abstractas y heredan los siguientes aspectos 
 
 Definir clases y métodos para el ciclista y sus clases hijas para realizar las siguientes acciones:
 
-1.Constructores para cada clase (deben llamar a los constructores de la clase padre en las clases donde se requiera).
+1.Constructores para cada clase (deben llamar a los constructores de la clase padre en las clases donde se requiera). X
 
-2.Métodos get y set para cada atributo de cada clase.
+2.Métodos get y set para cada atributo de cada clase. X
 
 3.Imprimir los datos de un ciclista. Debe invocar el método de la clase padre e imprimir los valores de los atributos propios.
 
@@ -29,10 +30,15 @@ Definir clases y métodos para el ciclista y sus clases hijas para realizar las 
 --------------------------
 
 La clase Equipo debe tener los siguientes métodos protegidos:
-    Métodos get y set para cada atributo de la clase.
-    Imprimir los datos del equipo en pantalla.
+
+    Métodos get y set para cada atributo de la clase. X
+
     Añadir un ciclista a un equipo.
+
+    Imprimir los datos del equipo en pantalla.
+
     Calcular el total de tiempos de los ciclistas del equipo (suma de los tiempos de carrera de sus ciclistas, su atributo estático).
+
     Listar los nombres de todos los ciclistas que conforman el equipo.
 
 ----------------------------

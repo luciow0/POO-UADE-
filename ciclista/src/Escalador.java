@@ -8,6 +8,8 @@ public class Escalador extends Ciclista {
         this.gradoDeRampaSoportada = gradoDeRampaSoportada;
     }
 
+    public Escalador(){}
+
     public float getAceleracionPromedioDeSubida() {
         return aceleracionPromedioDeSubida;
     }
@@ -22,5 +24,18 @@ public class Escalador extends Ciclista {
 
     public void setGradoDeRampaSoportada(float gradoDeRampaSoportada) {
         this.gradoDeRampaSoportada = gradoDeRampaSoportada;
+    }
+
+    @Override
+    protected String imprimirTipo() {
+        String tipo = "Velocista";
+        return tipo;
+    }
+
+    @Override
+    public void imprimirAtributos() {
+        super.imprimirAtributos();
+        System.out.println("Velocidad: " + aceleracionPromedioDeSubida);
+        System.out.println("Grado de Rampa: " + gradoDeRampaSoportada);
     }
 }
