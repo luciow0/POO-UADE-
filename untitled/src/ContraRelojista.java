@@ -13,4 +13,9 @@ public class ContraRelojista extends Ciclista {
     public void setVelocidadMaxima(int velocidadMaxima) {
         this.velocidadMaxima = velocidadMaxima;
     }
+
+    @Override
+    String imprimirTipo() {
+        return "";
+    }
 }

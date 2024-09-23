@@ -23,4 +23,9 @@ public class Escalador extends Ciclista {
     public void setGradoDeRampaSoportada(float gradoDeRampaSoportada) {
         this.gradoDeRampaSoportada = gradoDeRampaSoportada;
     }
+
+    @Override
+    String imprimirTipo() {
+        return "Esta es una clase Escalador";
+    }
 }

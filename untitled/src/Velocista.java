@@ -10,6 +10,8 @@ public class Velocista extends Ciclista {
         this.velocidadPromedio = velocidadPromedio;
     }
 
+    
+
     public double getPotenciaPromedio() {
         return potenciaPromedio;
     }

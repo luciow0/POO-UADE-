@@ -3,15 +3,15 @@ public abstract class Ciclista {
     private String nombreCiclista;
     private int tiempoCarrera;
 
-    protected String imprimirTipo() {
-        return "Es un " + getClass();
-    }
+    abstract String imprimirTipo();
 
     public Ciclista(int identificador, String nombreCiclista, int tiempoCarrera){
         this.identificador  = identificador;
         this.nombreCiclista = nombreCiclista;
         this.tiempoCarrera = tiempoCarrera;
     }
+
+    public Ciclista(){}
 
     public int getIdentificador() {
         return identificador;
