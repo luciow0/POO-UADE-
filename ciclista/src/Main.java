@@ -4,15 +4,27 @@ public class Main {
     public static void main(String[]args){
 
         Scanner sc = new Scanner(System.in);
-        System.out.println(new Velocista(123,"Lucio",26,500,30).getPotenciaPromedio());
-        Velocista X = new Velocista(123,"Lucio",26,500,30);
-        System.out.println(X.getPotenciaPromedio());
-        System.out.println(X.getVelocidadPromedio());
-        System.out.println(X.imprimirTipo());
-        System.out.println(X.getNombreCiclista());
-        System.out.println(X.getTiempoCarrera());
 
         Equipo equipoX = new Equipo();
+        System.out.println("Ingrese el nombre de su equipo ");
+        String nombreEquipo = sc.next();
+        equipoX.setNombreEquipo(nombreEquipo);
+        System.out.println("Ingrese el numero de su equipo ");
+        int numeroEquipo = sc.nextInt();
+        equipoX.setNumeroEquipo(numeroEquipo);
+
+        System.out.println("Añada los contra relojistas de su equipo ");
+        equipoX.añadirContraRelojista();
+
+        System.out.println("Añada los velocistas de su equipo ");
+        equipoX.añadirVelocista();
+
+        System.out.println("Añada los escaladores de su equipo ");
+        equipoX.añadirEscalador();
+
+        equipoX.mostrarDatosDelEquipo();
+
+        equipoX.listarNombres();
 
     }
 }

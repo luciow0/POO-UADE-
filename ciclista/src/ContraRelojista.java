@@ -18,8 +18,7 @@ public class ContraRelojista extends Ciclista {
 
     @Override
     protected String imprimirTipo() {
-        String tipo = "Velocista";
-        return tipo;
+        return "Esta es una clase ContraRelojista";
     }
 
     @Override

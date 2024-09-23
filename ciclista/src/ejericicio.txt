@@ -23,9 +23,9 @@ Definir clases y métodos para el ciclista y sus clases hijas para realizar las 
 
 2.Métodos get y set para cada atributo de cada clase. X
 
-3.Imprimir los datos de un ciclista. Debe invocar el método de la clase padre e imprimir los valores de los atributos propios.
+3.Imprimir los datos de un ciclista. Debe invocar el método de la clase padre e imprimir los valores de los atributos propios. X
 
-4.Método imprimirTipo que devuelve un String con el texto “Es un xxx”. Donde xxx es la clase a la que pertenece.
+4.Método imprimirTipo que devuelve un String con el texto “Es un xxx”. Donde xxx es la clase a la que pertenece. X
 
 --------------------------
 
@@ -33,15 +33,17 @@ La clase Equipo debe tener los siguientes métodos protegidos:
 
     Métodos get y set para cada atributo de la clase. X
 
-    Añadir un ciclista a un equipo.
+    Añadir un ciclista a un equipo. X
 
-    Imprimir los datos del equipo en pantalla.
+    Imprimir los datos del equipo en pantalla. X
 
-    Calcular el total de tiempos de los ciclistas del equipo (suma de los tiempos de carrera de sus ciclistas, su atributo estático).
+    Calcular el total de tiempos de los ciclistas del equipo (suma de los tiempos de carrera de sus ciclistas, su atributo estático). X
 
-    Listar los nombres de todos los ciclistas que conforman el equipo.
+    Listar los nombres de todos los ciclistas que conforman el equipo. X
 
 ----------------------------
 
-Dado un identificador de un ciclista por teclado, es necesario imprimir en pantalla los datos del ciclista. Si no existe, debe aparecer el mensaje correspondiente.
-En una clase de prueba, en un método main se debe crear un equipo y agregar ciclistas de diferentes tipos.
+Dado un identificador de un ciclista por teclado, es necesario imprimir en pantalla los datos del ciclista. Si no existe, debe aparecer el mensaje correspondiente. ESTE NO SE COMO HACERLO
+
+En una clase de prueba, en un método main se debe crear un equipo y agregar ciclistas de diferentes tipos. X
+
