@@ -6,6 +6,8 @@ public class ContraRelojista extends Ciclista {
         this.velocidadMaxima = velocidadMaxima;
     }
 
+    public ContraRelojista(){}
+
     public int getVelocidadMaxima() {
         return velocidadMaxima;
     }
@@ -15,7 +17,14 @@ public class ContraRelojista extends Ciclista {
     }
 
     @Override
-    String imprimirTipo() {
-        return "";
+    protected String imprimirTipo() {
+        String tipo = "Velocista";
+        return tipo;
+    }
+
+    @Override
+    public void imprimirAtributos() {
+        super.imprimirAtributos();
+        System.out.println("Velocidad Maxima: " + getVelocidadMaxima());
     }
 }
