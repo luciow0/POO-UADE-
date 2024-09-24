@@ -5,8 +5,8 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         // creacion de productos existentes para añadir a la orden de compra
-        Producto[] productos = new Producto[5];
-        for(int i = 0; i < 6; i ++){
+        Producto[] productos = new Producto[3];
+        for (int i = 0; i < 3; i++) {
             productos[i] = new Producto();
             System.out.println("Ingrese el codigo del producto ");
             int codigo = sc.nextInt();
@@ -26,13 +26,12 @@ public class Main {
         System.out.println("Ingrese el DNI del proveedor: ");
 
         boolean flag = false;
-        while(flag == false){
+        while (!flag) {
             int dniProveedor = sc.nextInt();
-            if (orden.verificarProveedor(dniProveedor)){
+            if (orden.verificarProveedor(dniProveedor)) {
                 System.out.println("El proveedor esta verificado");
                 flag = true;
-            }
-            else{
+            } else {
                 System.out.println("El proveedor no esta verificado");
             }
         }
@@ -41,22 +40,47 @@ public class Main {
         int fecha = sc.nextInt();
         orden.setFecha(fecha);
 
+        System.out.println("Por favor ingrese la descrpcion del producto: ");
+        String descripcion = sc.next();
+        orden.setDescripcion(descripcion);
+
         System.out.println("Por favor ingrese el codigo del producto: ");
         int codigo = sc.nextInt();
         orden.setProducto(codigo);
 
+        System.out.println("Por favor ingrese el numero de compra: ");
+        int num = sc.nextInt();
+        orden.setNum(num);
+
         System.out.println("Por favor ingrese la cnatidad de productos que desea añadir ");
         int cantidad = sc.nextInt();
-        orden.setCantidadComprar(cantidad);
 
-
-        if (productos[codigo].verificarExistencias(productos,codigo, cantidad)){
-
+        int pos = -1;
+        for (int i = 0; i < 3; i++) {
+            if (productos[i].getCodigo() == codigo) {
+                pos = i;
+            }
         }
 
+        while (!productos[pos].verificarExistencias(productos, codigo, cantidad, pos)) {
+            System.out.println("Por favor ingrese una cantidad de productos valida ");
+            cantidad = sc.nextInt();
+        }
 
+        System.out.println("Orden de compra generada, mostrando..");
+        System.out.println("...");
+        System.out.println("Cantidad a comprar " + orden.getCantidadComprar());
+        System.out.println("Fecha de compra " + orden.getFecha());
+        System.out.println("DNI del proveedor " + orden.getDniProveedor());
+        System.out.println("codigo del Producto seleccionado " + orden.getProducto());
+        System.out.println("Numero de compra " + orden.getNum());
+        System.out.println("Producto adquirido " + orden.getDescripcion());
 
+        System.out.println("Ingrese el dni del proveedor del que desea verificar las ordenes de compra asociadas ");
+        int dniComprobar = sc.nextInt();
+        if (orden.getDniProveedor() == dniComprobar) {
+            System.out.println("Orden asociada al proveedor " + orden.getNum());
+        }
     }
-
-
 }
+

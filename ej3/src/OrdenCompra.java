@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class OrdenCompra {
+    String descripcion;
     int numeroCompra;
     int fecha;
     int dniProveedor;
@@ -19,6 +20,14 @@ public class OrdenCompra {
     }
 
     public OrdenCompra(){}
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
 
     public int getNum() {
         return numeroCompra;
@@ -68,8 +77,6 @@ public class OrdenCompra {
         proveedores[3] = 36287192;
         proveedores[4] = 26185610;
         proveedores[5] = 46444122;
-        System.out.println("Ingrese el DNI de el proovedor");
-        int dni = sc.nextInt();
         proveedorVerificado = false;
         for (int i = 0; i < 6; i++) {
             if (dniProveedor == proveedores[i]){
