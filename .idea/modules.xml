@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Deitel/ejercicios_cap_2/Ejercicio_2.15/Ejercicio_2.15.iml" filepath="$PROJECT_DIR$/Deitel/ejercicios_cap_2/Ejercicio_2.15/Ejercicio_2.15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Deitel/ejercicios_cap_2/Ejercicio_2.28/Ejercicio_2.28.iml" filepath="$PROJECT_DIR$/Deitel/ejercicios_cap_2/Ejercicio_2.28/Ejercicio_2.28.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Deitel/ejercicios_cap_2/Ejercicio_2.29/Ejercicio_2.29.iml" filepath="$PROJECT_DIR$/Deitel/ejercicios_cap_2/Ejercicio_2.29/Ejercicio_2.29.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Deitel/ejercicios_cap_2/Ejercicio_2.3/Ejercicio_2.3.iml" filepath="$PROJECT_DIR$/Deitel/ejercicios_cap_2/Ejercicio_2.3/Ejercicio_2.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Deitel/ejercicios_cap_2/Ejercicio_2.4/Ejercicio_2.4.iml" filepath="$PROJECT_DIR$/Deitel/ejercicios_cap_2/Ejercicio_2.4/Ejercicio_2.4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Deitel/ejercicios_cap_2/Ejercicio_2.8/Ejercicio_2.8.iml" filepath="$PROJECT_DIR$/Deitel/ejercicios_cap_2/Ejercicio_2.8/Ejercicio_2.8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Juego/Juego.iml" filepath="$PROJECT_DIR$/Juego/Juego.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/POO-UADE-.iml" filepath="$PROJECT_DIR$/.idea/POO-UADE-.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Persona/Persona.iml" filepath="$PROJECT_DIR$/Persona/Persona.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Deitel/Programa_1/Programa_1.iml" filepath="$PROJECT_DIR$/Deitel/Programa_1/Programa_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Deitel/Programa_2/Programa_2.iml" filepath="$PROJECT_DIR$/Deitel/Programa_2/Programa_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Deitel/Programa_3/Programa_3.iml" filepath="$PROJECT_DIR$/Deitel/Programa_3/Programa_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arreglosUno/arreglosUno.iml" filepath="$PROJECT_DIR$/arreglosUno/arreglosUno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/atributosEstaticos/atributosEstaticos.iml" filepath="$PROJECT_DIR$/atributosEstaticos/atributosEstaticos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ciclista/ciclista.iml" filepath="$PROJECT_DIR$/ciclista/ciclista.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cuentaBancaria/cuentaBancaria.iml" filepath="$PROJECT_DIR$/cuentaBancaria/cuentaBancaria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ej1/ej1.iml" filepath="$PROJECT_DIR$/ej1/ej1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ej2/ej2.iml" filepath="$PROJECT_DIR$/ej2/ej2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ej3/ej3.iml" filepath="$PROJECT_DIR$/ej3/ej3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Deitel/ejercicios_cap_3/ejercicios_cap_3.iml" filepath="$PROJECT_DIR$/Deitel/ejercicios_cap_3/ejercicios_cap_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/relacionesEntreObjetos/relacionesEntreObjetos.iml" filepath="$PROJECT_DIR$/relacionesEntreObjetos/relacionesEntreObjetos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/softwareVentaVehiculos/softwareVentaVehiculos.iml" filepath="$PROJECT_DIR$/softwareVentaVehiculos/softwareVentaVehiculos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tipoParcial-1/tipoParcial-1.iml" filepath="$PROJECT_DIR$/tipoParcial-1/tipoParcial-1.iml" />
+    </modules>
+  </component>
+</project>
